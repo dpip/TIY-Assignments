@@ -5,3 +5,8 @@ if (
      console.log("2 is even")
 
 );
+
+var verb = ["I like verb"];
+var verbing = ["ing"];
+var join = verbing.join(" ");
+console.log(join);
