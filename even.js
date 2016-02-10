@@ -8,5 +8,5 @@ if (
 
 var verb = ["I like verb"];
 var verbing = ["ing"];
-var join = verbing.join(" ");
+var join = verbing.join(" verb");
 console.log(join);
