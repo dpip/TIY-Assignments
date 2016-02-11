@@ -1,0 +1,27 @@
+body {
+
+  color: #47a3da;
+}
+
+h1 {
+  color: #47a3da;
+  border-bottom: 4px #ddd;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  display: inline-block;
+  width: 30em;
+}
+
+i {
+  padding-right: 1em;
+}
+
+header {
+  margin;
+}
+
+#sections-panel {
+  transition: height 0.3s linear 0s;
+}
