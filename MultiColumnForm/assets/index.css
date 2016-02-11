@@ -1,0 +1,40 @@
+body {
+  border: solid 4px;
+  border-color: #47a3da;
+  width: 90%;
+  padding-bottom: 700px;
+  align-content: center;
+}
+h1 {
+  border: solid 4px;
+  border-color: #47a3da;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-width: 80%;
+  border-radius: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.menus {
+  /*display: inline-block;*/
+}
+#blockLogo {
+  padding-left: 90%;
+  display: inline;
+  color: #47a3da;
+}
+#readLogo {
+  padding-left: ;
+  display: inline;
+  color: #47a3da;
+}
+.gizmo {
+  margin-left: 5em;
+  display: inline-block;
+  border: solid 2px;
+  border-color: transparent;
+  text-align: center;
+  width: 30%;
+  padding-bottom: 6em;
+}
