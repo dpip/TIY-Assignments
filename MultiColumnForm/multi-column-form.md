@@ -1,4 +1,4 @@
-<!-- What does it do?
+What does it do?
 1.What interactive elements exist?
 
 -The first page contains buttons that, when clicked, catalog potential purchases.
@@ -24,6 +24,6 @@ What new HTML elements are created?
 
 -
 
-What CSS styles are used to produce the effect? -->
+What CSS styles are used to produce the effect?
 
 -
