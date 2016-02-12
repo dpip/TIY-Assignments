@@ -1,0 +1,79 @@
+body {
+  border: solid 4px;
+  border-color: #47a3da;
+  width: 90%;
+  padding-bottom: 700px;
+  align-content: center;
+}
+h1 {
+  border: solid;
+  border-color: #47a3da;
+  border-top-color: white;
+  border-left-color: white;
+  border-right-color: white;
+  border-bottom-width: 3px;
+  /*border-radius: 1em;*/
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.menus {
+  /*display: inline-block;*/
+}
+#blockLogo {
+  padding-left: 90%;
+  display: inline;
+  color: #47a3da;
+}
+#readLogo {
+  padding-left: ;
+  display: inline;
+  color: #47a3da;
+}
+
+.fa-coffee {
+  color: #c0c0c0;
+}
+.fa-play {
+  color: #c0c0c0;
+}
+.fa-bicycle {
+  color: #c0c0c0;
+}
+.fa-bullseye {
+  color: #c0c0c0;
+}
+
+.gizmo {
+  margin-left: 5em;
+  display: inline-block;
+  border: solid 2px;
+  border-color: transparent;
+  text-align: center;
+  width: 30%;
+  padding-bottom: 6em;
+}
+#label1 {
+  color: #47a3da;
+  font-size: 50px;
+}
+#price1 {
+  color: #c0c0c0;
+  font-size: 35px;
+}
+#desc1 {
+    color: #47a3da;
+}
+.cbp-vm-icon:before {
+  
+}
+input {
+  background-color: #47a3da;
+  border-color: #47a3da;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  width: 10em;
+  color: white;
+  font-size: 20px;
+  outline: 0 !important;
+
+}
