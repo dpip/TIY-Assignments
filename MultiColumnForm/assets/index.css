@@ -6,13 +6,13 @@ body {
   align-content: center;
 }
 h1 {
-  border: solid 4px;
+  border: solid;
   border-color: #47a3da;
   border-top-color: white;
   border-left-color: white;
   border-right-color: white;
-  border-bottom-width: 80%;
-  border-radius: 1em;
+  border-bottom-width: 3px;
+  /*border-radius: 1em;*/
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -29,6 +29,10 @@ h1 {
   display: inline;
   color: #47a3da;
 }
+
+#bottle1 {
+
+}
 .gizmo {
   margin-left: 5em;
   display: inline-block;
@@ -37,4 +41,15 @@ h1 {
   text-align: center;
   width: 30%;
   padding-bottom: 6em;
+}
+#label1 {
+  color: #47a3da;
+  font-size: 50px;
+}
+#price1 {
+  color: #c0c0c0;
+  font-size: 35px;
+}
+#desc1 {
+    color: #47a3da;
 }
