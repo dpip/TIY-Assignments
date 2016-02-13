@@ -13,6 +13,10 @@ h1{
   text-align: center;
   position: fixed;
 }
+.CAP {
+
+  padding-top: 2.5em;
+}
 #header {
   color: white;
   align-content: center;
@@ -40,6 +44,7 @@ h1{
   /*padding-bottom: 2em;*/
   color: #104E8B;
   font-size: 2em;
+  background-color: #47a3da;
 }
 #last {
   border-style: solid;
@@ -48,6 +53,7 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
 #email {
   border-style: solid;
@@ -56,25 +62,33 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
 #country {
   border-style: solid;
   border-color: white;
   width: 20em;
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  background-color: #47a3da;
 }
 #biography {
   border-style: solid;
   border-color: white;
-  width: 20em;
+  width: 29em;
   padding-bottom: 8em;
+  padding-top: 1em;
+  background-color: #47a3da;
+  color: #104E8B;
+}
+.bioLabel {
+  /*padding-top: 8px;*/
 }
 .row-container2 {
   display: table-cell;
   vertical-align: middle;
   padding-left: 3em;
   color: white;
-  padding-bottom: 4em;
+  padding-bottom: 4em;*/
 }
 #phone {
   border-style: solid;
@@ -83,12 +97,18 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
+  padding-top: 0em;
 }
 #affil {
   border-style: solid;
   border-color: white;
   width: 20em;
   padding-bottom: 8em;
+  padding-top: 1em;
+  padding-right: 9em;
+  background-color: #47a3da;
+  color: #104E8B;
 
 }
 #occupation {
@@ -96,6 +116,7 @@ h1{
   border-color: white;
   width: 20em;
   padding-bottom: 1em;
+  background-color: #47a3da;
   /*font-size: 1em;
   color: #4682B4;*/
 }
@@ -106,6 +127,8 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
+
 }
 #gadget {
   border-style: solid;
@@ -114,6 +137,7 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
 .row-container3 {
   display: table-cell;
@@ -126,6 +150,7 @@ h1{
   border-color: white;
   width: 20em;
   padding-bottom: 1em;
+  background-color: #47a3da;
 
 }
 #drink {
@@ -135,6 +160,7 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
 #power {
   border-style: solid;
@@ -143,6 +169,7 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
 #weapon {
   border-style: solid;
@@ -151,10 +178,14 @@ h1{
   padding-bottom: 2em;*/
   font-size: 2em;
   color: #104E8B;
+  background-color: #47a3da;
 }
-#comments {
+#comment {
   border-style: solid;
   border-color: white;
   width: 20em;
-  padding-bottom: 8em;
+  padding-bottom: 9em;
+  padding-right: 9em;
+  background-color: #47a3da;
+  color: #104E8B;
 }
