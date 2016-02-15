@@ -5,22 +5,24 @@
 //       });
 //     });
 
-(function () {
-$(".container1").on("click", function(event) {
-  event.preventDefault();
+$(function () {
+
+
+$(".modalClick").on("click", function() {
+  // event.preventDefault();
   $("#overlay")
-      .fadeIn()
+      .fadeIn("slow")
       .find("#modal")
-      .fadeIn();
+      .fadeIn("slow");
 
 });
 
-$(".close").on("click", function(event) {
-  event.preventDefault();
+$(".close, #overlay").on("click", function() {
+  // event.preventDefault();
   $("#overlay")
-      .fadeOut()
+      .fadeOut("slow")
       .find("#modal")
-      // .fadeOut();
+      .fadeOut("slow");
 
 });
 })();
