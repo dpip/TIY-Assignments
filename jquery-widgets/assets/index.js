@@ -6,7 +6,7 @@
 //     });
 
 (function () {
-$(".container1").on("click", function() {
+$(".container1").on("click", function(event) {
   event.preventDefault();
   $("#overlay")
       .fadeIn()
@@ -15,12 +15,12 @@ $(".container1").on("click", function() {
 
 });
 
-$(".close").on("click", function() {
+$(".close").on("click", function(event) {
   event.preventDefault();
   $("#overlay")
-      .fadeIn()
+      .fadeOut()
       .find("#modal")
-      .fadeIn();
+      // .fadeOut();
 
 });
 })();
