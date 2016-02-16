@@ -1,0 +1,22 @@
+.container {
+  display:
+}
+
+
+#Typies {
+  padding-bottom: 10em;
+  padding-right: 4em;
+  paddign-left: 4em;
+  margin-left: 35%;
+  margin-top: 20%;
+  border-width: 3px;
+  border-color: green;
+  border-radius: 4%;
+  width: 300px;
+  font-size: 30px;
+  color: grey;
+}
+#print {
+  margin-left: 47%;
+  display: inline-grid;
+}
