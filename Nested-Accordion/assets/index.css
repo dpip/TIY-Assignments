@@ -1,27 +1,72 @@
-body {
-
-  color: #47a3da;
-}
-
 h1 {
   color: #47a3da;
-  border-bottom: 4px #ddd;
+  border-bottom: 1px #ddd;
   border-style: solid;
   border-top: none;
   border-left: none;
   border-right: none;
   display: inline-block;
-  width: 30em;
+  width: 100%;
 }
-
+                      /*FIRST ACCORDION*/
+  #arrowHead {
+  color: #ddd;
+  font-size: 40px;
+  margin-left: 8%;
+}
+  #header {
+  margin-left: 2%;
+}
+  .block {
+  display: inline;
+}
+  .accordiOne {
+  margin-right: 10%;
+  margin-left: 15%;
+  display: none;
+}
+  .options {
+    display: inline-block;
+  }
 i {
-  padding-right: 1em;
+  color: #47a3da;
+  display:inline-block;
 }
-
-header {
-  margin;
+                      /*SUB-ACCORDION*/
+h2 {
+  color: #47a3da;
 }
-
-#sections-panel {
-  transition: height 0.3s linear 0s;
+#arrowOne {
+  /*color: #ddd;*/
+  /*margin-left: 15%;*/
+  /*display:inline;*/
+}
+#headerTwo {
+  margin-left: 2%;
+  color: #47a3da;
+}
+.accordiOne {
+margin-right: 10%;
+margin-left: 15%;
+display: none;
+}
+.accordiTwo {
+  margin-right: 10%;
+  margin-left: 20%;
+  display:none;
+}
+.accordiThree {
+  margin-right: 10%;
+  margin-left: 20%;
+  display:none;
+}
+.accordiFour {
+  margin-right: 10%;
+  margin-left: 20%;
+  display:none;
+}
+.accordiFive {
+  margin-right: 10%;
+  margin-left: 20%;
+  display:none;
 }
