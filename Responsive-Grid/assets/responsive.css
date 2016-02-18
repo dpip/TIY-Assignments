@@ -1,0 +1,39 @@
+.catz {
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  /*margin-left: -3em;
+  margin-bottom: -3em;*/
+}
+li {
+  position: relative;
+  float: left;
+  display: inline-block;
+  width: calc(100% / 6);
+}
+img {
+  background-color: transparent;
+}
+span {
+  opacity: 0;
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  text-align: center;
+  border-style: solid;
+  font-size: 30px;
+  padding-top: 50%;
+
+
+
+}
+li:hover span {
+  opacity: 0.8;
+  display: inline-block;
+  background-color: rgba(71,163,218,0.8);
+  color: white;
+}
