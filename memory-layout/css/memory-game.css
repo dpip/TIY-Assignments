@@ -39,6 +39,19 @@ h1 {
   height: 200px;
   background-color: #7986cb;
   border-radius: 4%;
+  transform: rotateY(0deg);
+  transition: background 1s, -webkit-transform 1s;
+}
+.flipped {
+  transform: rotateY(180deg);
+  transition: background 1s, -webkit-transform 1s;
+  color: white;
+}
+.bingo {
+  transform: rotateY(900deg);
+  transition: background 1s, -webkit-transform 1s;
+  color: white;
+  pointer-events: none;
 }
 .Card:hover {
   cursor: pointer;
@@ -47,7 +60,6 @@ h1 {
   font-size: 4em;
   padding-top: 35%;
   padding-left: 35%;
-
 }
 .row-container1 {
   padding-bottom: 5px;
