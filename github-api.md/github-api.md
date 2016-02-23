@@ -1,9 +1,12 @@
 How does the API handle authentication?  
     The server you're trying to access wants to know who is accessing its information - or - when the client needs to know that the server is the system it claims to be. The user / computer has to prove its identity to the server / client. Usually, a server requests an username and/or password. A client, usually, requests a certificate.  
+  
   Do I need to authenticate?
     Yes, but: Authentication does not determine what tasks an individual can or cant do or what files they can see. It merely identifies and verifies who / what the accessor is.
+  
   What can I do with an unauthenticated request?
     Research the error number.
+  
   How can I authenticate my request? (3 ways)
     -Basic.(curl -u "username" https://api.github.com).
     -OAuth2 Token. Set in a header.(curl -H "Authorization: token OAUTH-TOKEN" https://api.github.com).
