@@ -1,0 +1,28 @@
+.tabContainer {
+  color: green;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 1em;
+  border-style: solid;
+  border-color: black
+  border-width: 2px;
+  background-color: rgb(246, 246, 246);
+  margin-top: 2px;
+}
+
+.panel {
+  border-style: solid;
+  border-color: black
+  border-width: 2px;
+  width: 50%;
+  background-color: rgb(246, 246, 246);
+  margin-left: 2.5em;
+  display: none;
+}
+
+.active {
+  /*background-color: rgb(246, 246, 246);*/
+}
