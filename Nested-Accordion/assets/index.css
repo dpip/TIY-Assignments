@@ -9,24 +9,24 @@ h1 {
   width: 100%;
 }
                       /*FIRST ACCORDION*/
-  #arrowHead {
+#arrowHead {
   color: #ddd;
   font-size: 40px;
   margin-left: 8%;
 }
-  #header {
+#header {
   margin-left: 2%;
 }
-  .block {
+.block {
   display: inline;
 }
-  .accordiOne {
+.accordiOne {
   margin-right: 10%;
   margin-left: 15%;
   display: none;
 }
-  .options {
-    display: inline-block;
+.options {
+  display: inline-block;
   }
 i {
   color: #47a3da;
@@ -36,19 +36,14 @@ i {
 h2 {
   color: #47a3da;
 }
-#arrowOne {
-  /*color: #ddd;*/
-  /*margin-left: 15%;*/
-  /*display:inline;*/
-}
 #headerTwo {
   margin-left: 2%;
   color: #47a3da;
 }
 .accordiOne {
-margin-right: 10%;
-margin-left: 15%;
-display: none;
+  margin-right: 10%;
+  margin-left: 15%;
+  display: none;
 }
 .accordiTwo {
   margin-right: 10%;
