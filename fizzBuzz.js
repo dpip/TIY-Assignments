@@ -7,26 +7,18 @@ var a = (3);
 var count;
 for (count = 0; count <= 100; count ++) {
 
-
        if (count % c === 0) {
 
         console.log("FizzBuzz");
     }
 
-
     else if (count % a === 0 ) {
         console.log("Fizz" );
-
     }
-
     else if (count % b === 0 ) {
-
-
         console.log("Buzz");
 
     }
-
-
     else {
         console.log(count);
     }

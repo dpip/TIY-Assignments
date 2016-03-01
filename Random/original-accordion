@@ -1,0 +1,53 @@
+// var openUp = document.getElementById("Arrow")
+// openUP.addEventListener( "click", function () {
+//   alert("Hello Pip");
+// }, false;
+// )
+var boom = document.querySelector("#header")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.getElementById("arrow").addEventListener("click", function( event ) {
+//     event.target.innerHTML = "CLOSER! " + event.detail;
+//   }, false);
+//
+// function() {
+//   if ("click") {
+//     console.log("description1")
+//   }
+
+// #pOne
+// boom.addEventListener("click", function(){alert("hi");})
+//
+// boom.addEventListener("click", function(){
+// if(pOne.length < 1) { return; }
+// document.getElementById("#pOne").style.display = "none";
+// }
+// else if (pOne.length < 1) { return; }
+// document.getElementById(d).style.display = "block";
+// }
+// else if(pOne.length < 1) { return; }
+// if(document.getElementById("#pOne").style.display == "none")
+//  { document.getElementById("#pOne").style.display = "block"; }
+// else { document.getElementById("#pOne").style.display = "none"; }
+// }
+// //--></script>
+//
+//

@@ -6,9 +6,9 @@ console.log(choices[0] + whatever[0]);
 console.log(choices[2] + whatever[1]);
 console.log(choices[1] + whatever[2]);
 // Bonus: Change it to log "my 1st choice"etc by picking the right suffix for the number based on what it is
-var suff = "#";
-var spell = function() {
-    if(suff) {
-        apend
-    }
-}
+// var suff = "#";
+// var spell = function() {
+//     if(suff) {
+//         apend
+//     }
+// }

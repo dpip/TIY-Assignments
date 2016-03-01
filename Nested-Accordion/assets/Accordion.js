@@ -5,21 +5,21 @@ $(document).ready(function() {
 })
 $(document).ready(function() {
     $("#arrowOne").click(function(){
-    $(".accordiTwo").slideToggle();
+    $(".accordiTwo").toggle();
   })
 })
 $(document).ready(function() {
     $("#arrowTwo").click(function(){
-    $(".accordiThree").slideToggle();
+    $(".accordiThree").toggle();
   })
 })
 $(document).ready(function() {
     $("#arrowThree").click(function(){
-    $(".accordiFour").slideToggle();
+    $(".accordiFour").toggle();
   })
 })
 $(document).ready(function() {
     $("#arrowFour").click(function(){
-    $(".accordiFive").slideToggle();
+    $(".accordiFive").toggle();
   })
 })
