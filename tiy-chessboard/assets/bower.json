@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "homepage": "https://github.com/dpip/TIY-Assignments",
+  "authors": [
+    "Daniel Pipkin <dpip.nc@gmail.com>"
+  ],
+  "description": "y",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
