@@ -1,0 +1,16 @@
+// Have the function LetterCapitalize(str) take the str
+// parameter being passed and capitolize the first letter
+// of each word. Words will be separated by only one space.
+//Como?
+
+var upper = ["Hey", "You"]
+function LetterCapitalize(str) {
+    var upper = {"hello" : "Hello"}
+    if (1 === 1) {
+    "H"
+    }
+
+}
+
+
+console.log(upper[0] + " " + upper[1]);
