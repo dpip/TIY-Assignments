@@ -1,5 +1,55 @@
+@import 'bits';
+
 body {
+  height: 1000px;
+}
+
+.gameBoard {
+  height: 640px;
+  width: 642px;
+  border: 1px solid;
+  margin-top: 2em;
+  margin-left: 20%;
+  box-sizing: border-box;
+    .row {
+      height: 80px;
+      width: 640px;
+      border: 1px;
+      .square {
+        font-size: 2em;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 80px;
+        width: 80px;
+        border:1px solid black;
+        float: left;
+        cursor: pointer;
+    }
+  }
+}
+
+.fa {
+  margin-left: 30%;
+  margin-top: 30%;
+}
+.square .king-queen {
+  margin-left: 25%;
+  margin-top: 10%;
+  font-size: 2em;
+}
+.player {
   color: white;
-  background-color: red;
-  height: 20px;
+}
+i.player {
+  -webkit-transform:rotateY(180deg);
+}
+i.enemy {
+  -webkit-transform:rotateX(180deg);
+}
+
+.butTons {
+  display: inline-block;
+  list-style: none;
+  margin-top: 1em;
+  margin-right: 4em;
 }

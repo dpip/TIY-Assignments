@@ -4,7 +4,7 @@
   "authors": [
     "Daniel Pipkin <dpip.nc@gmail.com>"
   ],
-  "description": "y",
+  "description": "",
   "main": "",
   "moduleType": [],
   "license": "MIT",
@@ -16,7 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^2.2.1",
-    "font-awesome": "fontawesome#^4.5.0"
+    "flexbox": "*",
+    "font-awesome": "fontawesome#^4.5.0",
+    "jquery": "^2.2.1"
   }
 }

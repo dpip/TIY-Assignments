@@ -1,0 +1,54 @@
+$orange: rgb(255, 142, 0);
+$blue: rgb(26, 179, 209);
+$player: rgb(243, 243, 243);
+// Blue
+.one:nth-of-type(2n+2) {
+    background-color: $blue;
+}
+.two:nth-of-type(2n+1) {
+    background-color: $blue;
+}
+.three:nth-of-type(2n+2) {
+    background-color: $blue;
+}
+.four:nth-of-type(2n+1) {
+    background-color: $blue;
+}
+.five:nth-of-type(2n+2) {
+    background-color: $blue;
+}
+.six:nth-of-type(2n+1) {
+    background-color: $blue;
+}
+.seven:nth-of-type(2n+2) {
+    background-color: $blue;
+}
+.eight:nth-of-type(2n+1) {
+    background-color: $blue;
+}
+
+// Orange
+.one:nth-of-type(2n+1) {
+    background-color: $orange;
+}
+.two:nth-of-type(2n+2) {
+    background-color: $orange;
+}
+.three:nth-of-type(2n+1) {
+    background-color: $orange;
+}
+.four:nth-of-type(2n+2) {
+    background-color: $orange;
+}
+.five:nth-of-type(2n+1) {
+    background-color: $orange;
+}
+.six:nth-of-type(2n+2) {
+    background-color: $orange;
+}
+.seven:nth-of-type(2n+1) {
+    background-color: $orange;
+}
+.eight:nth-of-type(2n+2) {
+    background-color: $orange;
+}
