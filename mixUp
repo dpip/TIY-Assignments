@@ -1,0 +1,15 @@
+
+var catDog = ["meow", "dog", "bunny"];
+
+function mixUp() {
+
+    for(var slice = i = 0; i < 1; i++)
+    slice = catDog;
+    var up = catDog[1];
+    console.log(slice);
+    console.log(slice + up);
+    console.log(catDog.slice([0, 1]))
+
+}
+
+mixUp();

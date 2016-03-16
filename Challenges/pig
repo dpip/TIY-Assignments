@@ -1,0 +1,14 @@
+Translate a word or a scentence into pig latin.
+
+var scentence = ["I", "really", "enjoyed", "the", "walk", "outside"];
+var ay = ["enjoyeday"];
+ function pigLatin() {
+     var swap = str.split(ay);
+     for( i = 0; i < scentence; i++) {
+         console.log(scentence + anyString.charAt(scentence[2]));
+
+     }
+
+ }
+
+ console.log(pigLatin);
