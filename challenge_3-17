@@ -1,0 +1,22 @@
+// Write a jvascript function to find the first not repeated character.
+// sample arguments: 'abacddbec'
+// expected output: 'e'
+
+// if split string character = 2, don't print to console
+
+var alpha = 'abacddbec';
+
+function getIt(str) {
+
+    var splitIt = str.split(" ");                       //split the string
+    if(splitIt = i = 0; i.length < 1; i ++) {           //iterate through the split string
+                                                        //only log the length less than two
+        console.log(" ");                               //cant find the syntax error
+    }
+    else {
+        console.log(0);
+    }
+
+}
+
+getIt(alpha);
