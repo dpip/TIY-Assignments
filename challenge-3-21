@@ -1,0 +1,25 @@
+// A palondromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers 9009 = 91 x 99.
+// Find the largest palindrome made from the product of two 3-digit numbers.
+
+// if the first and last integers are the same, true.
+
+// var str = [i]
+
+
+var str = " ";
+function firstlast() {
+    str.slice(0,3);
+}
+
+function palindrome(a) {
+    for (i = 0; i <=10,000; i++)
+    var firstlast = slice(0,3)
+    if (firstlast(0) === firstlast(3)){
+        true;
+    }
+    else {
+        false;
+    }
+}
+
+palindrome(1);
